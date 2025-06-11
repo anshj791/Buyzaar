@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { ArrowLeft, Check, CreditCard, Truck, User } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
@@ -33,10 +33,15 @@ export default function CheckoutPage() {
   
   const { register, handleSubmit, formState: { errors } } = useForm<CheckoutFormData>();
 
-  // Redirect if cart is empty
+  // ✅ Redirect to cart if cart is empty (client-side only)
+  useEffect(() => {
+    if (state.items.length === 0 && !orderComplete) {
+      router.push('/cart');
+    }
+  }, [state.items, orderComplete]);
+
   if (state.items.length === 0 && !orderComplete) {
-    router.push('/cart');
-    return null;
+    return null; // Avoid rendering on empty cart
   }
 
   const subtotal = state.total;
@@ -47,10 +52,8 @@ export default function CheckoutPage() {
   const onSubmit = async (data: CheckoutFormData) => {
     setIsProcessing(true);
     
-    // Simulate processing time
     await new Promise(resolve => setTimeout(resolve, 2000));
     
-    // Clear cart and show success
     clearCart();
     setOrderComplete(true);
     setIsProcessing(false);
@@ -66,9 +69,7 @@ export default function CheckoutPage() {
                 <Check className="h-8 w-8" />
               </div>
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-4">
-              Order Confirmed!
-            </h1>
+            <h1 className="text-2xl font-bold text-gray-900 mb-4">Order Confirmed!</h1>
             <p className="text-gray-600 mb-8">
               Thank you for your purchase. Your order has been successfully placed and you will receive a confirmation email shortly.
             </p>
