@@ -1,0 +1,369 @@
+[
+  {
+    "id": "wireless-headphones",
+    "name": "Premium Wireless Headphones",
+    "description": "Experience crystal-clear audio with our premium wireless headphones featuring active noise cancellation and 30-hour battery life.",
+    "category": "Electronics",
+    "basePrice": 199,
+    "images": [
+      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3394651/pexels-photo-3394651.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": {
+      "color": [
+        {
+          "id": "black",
+          "name": "Midnight Black",
+          "price": 199,
+          "inStock": true
+        },
+        {
+          "id": "white",
+          "name": "Pearl White",
+          "price": 199,
+          "inStock": true
+        },
+        {
+          "id": "blue",
+          "name": "Ocean Blue",
+          "price": 219,
+          "originalPrice": 249,
+          "inStock": true
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "color",
+        "values": ["black", "white", "blue"]
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 324,
+    "tags": ["wireless", "premium", "noise-cancelling"]
+  },
+  {
+    "id": "smart-watch",
+    "name": "Smart Fitness Watch",
+    "description": "Track your fitness goals with this advanced smartwatch featuring heart rate monitoring, GPS, and 7-day battery life.",
+    "category": "Wearables",
+    "basePrice": 299,
+    "images": [
+      "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": {
+      "color": [
+        {
+          "id": "black",
+          "name": "Space Black",
+          "price": 299,
+          "inStock": true
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "price": 299,
+          "inStock": true
+        },
+        {
+          "id": "gold",
+          "name": "Gold",
+          "price": 349,
+          "inStock": false
+        }
+      ],
+      "size": [
+        {
+          "id": "40mm",
+          "name": "40mm",
+          "price": 299,
+          "inStock": true
+        },
+        {
+          "id": "44mm",
+          "name": "44mm",
+          "price": 329,
+          "inStock": true
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "color",
+        "values": ["black", "silver", "gold"]
+      },
+      {
+        "name": "size",
+        "values": ["40mm", "44mm"]
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 189,
+    "tags": ["fitness", "smart", "waterproof"]
+  },
+  {
+    "id": "premium-backpack",
+    "name": "Urban Explorer Backpack",
+    "description": "Stylish and functional backpack perfect for daily commutes and weekend adventures. Features laptop compartment and water-resistant material.",
+    "category": "Accessories",
+    "basePrice": 89,
+    "images": [
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2905243/pexels-photo-2905243.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": {
+      "color": [
+        {
+          "id": "black",
+          "name": "Charcoal Black",
+          "price": 89,
+          "inStock": true
+        },
+        {
+          "id": "navy",
+          "name": "Navy Blue",
+          "price": 89,
+          "inStock": true
+        },
+        {
+          "id": "grey",
+          "name": "Stone Grey",
+          "price": 94,
+          "inStock": true
+        }
+      ],
+      "size": [
+        {
+          "id": "small",
+          "name": "Small (20L)",
+          "price": 79,
+          "inStock": true
+        },
+        {
+          "id": "medium",
+          "name": "Medium (25L)",
+          "price": 89,
+          "inStock": true
+        },
+        {
+          "id": "large",
+          "name": "Large (30L)",
+          "price": 99,
+          "inStock": true
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "color",
+        "values": ["black", "navy", "grey"]
+      },
+      {
+        "name": "size",
+        "values": ["small", "medium", "large"]
+      }
+    ],
+    "rating": 4.4,
+    "reviewCount": 95,
+    "tags": ["travel", "laptop", "water-resistant"]
+  },
+  {
+    "id": "ceramic-mug",
+    "name": "Artisan Ceramic Coffee Mug",
+    "description": "Handcrafted ceramic mug perfect for your morning coffee. Each piece is unique with beautiful glazing and comfortable grip.",
+    "category": "Home & Kitchen",
+    "basePrice": 24,
+    "images": [
+      "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/302901/pexels-photo-302901.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": {
+      "color": [
+        {
+          "id": "white",
+          "name": "Pure White",
+          "price": 24,
+          "inStock": true
+        },
+        {
+          "id": "blue",
+          "name": "Ocean Blue",
+          "price": 26,
+          "inStock": true
+        },
+        {
+          "id": "green",
+          "name": "Forest Green",
+          "price": 26,
+          "inStock": true
+        },
+        {
+          "id": "terracotta",
+          "name": "Terracotta",
+          "price": 28,
+          "inStock": true
+        }
+      ],
+      "size": [
+        {
+          "id": "small",
+          "name": "Small (8oz)",
+          "price": 24,
+          "inStock": true
+        },
+        {
+          "id": "medium",
+          "name": "Medium (12oz)",
+          "price": 26,
+          "inStock": true
+        },
+        {
+          "id": "large",
+          "name": "Large (16oz)",
+          "price": 28,
+          "inStock": true
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "color",
+        "values": ["white", "blue", "green", "terracotta"]
+      },
+      {
+        "name": "size",
+        "values": ["small", "medium", "large"]
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 156,
+    "tags": ["handmade", "ceramic", "coffee"]
+  },
+  {
+    "id": "running-shoes",
+    "name": "Professional Running Shoes",
+    "description": "Engineered for performance with advanced cushioning technology and breathable mesh upper. Perfect for both casual runs and marathons.",
+    "category": "Sports & Outdoors",
+    "basePrice": 129,
+    "images": [
+      "https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1464624/pexels-photo-1464624.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": {
+      "color": [
+        {
+          "id": "black",
+          "name": "Classic Black",
+          "price": 129,
+          "inStock": true
+        },
+        {
+          "id": "white",
+          "name": "Pure White",
+          "price": 129,
+          "inStock": true
+        },
+        {
+          "id": "red",
+          "name": "Racing Red",
+          "price": 139,
+          "inStock": true
+        },
+        {
+          "id": "blue",
+          "name": "Electric Blue",
+          "price": 139,
+          "inStock": false
+        }
+      ],
+      "size": [
+        {
+          "id": "7",
+          "name": "7",
+          "price": 129,
+          "inStock": true
+        },
+        {
+          "id": "8",
+          "name": "8",
+          "price": 129,
+          "inStock": true
+        },
+        {
+          "id": "9",
+          "name": "9",
+          "price": 129,
+          "inStock": true
+        },
+        {
+          "id": "10",
+          "name": "10",
+          "price": 129,
+          "inStock": true
+        },
+        {
+          "id": "11",
+          "name": "11",
+          "price": 129,
+          "inStock": false
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "color",
+        "values": ["black", "white", "red", "blue"]
+      },
+      {
+        "name": "size",
+        "values": ["7", "8", "9", "10", "11"]
+      }
+    ],
+    "rating": 4.5,
+    "reviewCount": 278,
+    "tags": ["running", "sports", "comfortable"]
+  },
+  {
+    "id": "leather-wallet",
+    "name": "Premium Leather Wallet",
+    "description": "Crafted from genuine Italian leather with RFID protection. Features multiple card slots and a bill compartment.",
+    "category": "Accessories",
+    "basePrice": 79,
+    "images": [
+      "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2113995/pexels-photo-2113995.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "variants": {
+      "color": [
+        {
+          "id": "black",
+          "name": "Classic Black",
+          "price": 79,
+          "inStock": true
+        },
+        {
+          "id": "brown",
+          "name": "Rich Brown",
+          "price": 79,
+          "inStock": true
+        },
+        {
+          "id": "tan",
+          "name": "Cognac Tan",
+          "price": 89,
+          "inStock": true
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "color",
+        "values": ["black", "brown", "tan"]
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 412,
+    "tags": ["leather", "RFID", "premium"]
+  }
+]
