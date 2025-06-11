@@ -120,7 +120,7 @@ export default function CheckoutPage() {
                     id="email"
                     type="email"
                     {...register('email', { required: 'Email is required' })}
-                    placeholder="john@example.com"
+                    placeholder="name@example.com"
                   />
                   {errors.email && (
                     <p className="text-red-600 text-sm mt-1">{errors.email.message}</p>
@@ -133,7 +133,7 @@ export default function CheckoutPage() {
                     <Input
                       id="firstName"
                       {...register('firstName', { required: 'First name is required' })}
-                      placeholder="John"
+                      placeholder="name"
                     />
                     {errors.firstName && (
                       <p className="text-red-600 text-sm mt-1">{errors.firstName.message}</p>
@@ -144,7 +144,7 @@ export default function CheckoutPage() {
                     <Input
                       id="lastName"
                       {...register('lastName', { required: 'Last name is required' })}
-                      placeholder="Doe"
+                      placeholder="last name"
                     />
                     {errors.lastName && (
                       <p className="text-red-600 text-sm mt-1">{errors.lastName.message}</p>
@@ -228,7 +228,7 @@ export default function CheckoutPage() {
                   <Input
                     id="nameOnCard"
                     {...register('nameOnCard', { required: 'Name on card is required' })}
-                    placeholder="John Doe"
+                    placeholder="name last name"
                   />
                   {errors.nameOnCard && (
                     <p className="text-red-600 text-sm mt-1">{errors.nameOnCard.message}</p>
